@@ -1,0 +1,577 @@
+/*   
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog, and One Page Template.
+ * Version: 1.7
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
+*/
+
+/*Import Global Compulsory CSS Files*/
+@import url(app.css);
+
+body {
+	color: #333;
+	background: #eee url(../img/patter.png) repeat;
+}
+
+a,
+li a,
+a:hover { 
+   color: #3498db;
+}
+
+p {
+  color: #555;
+}
+
+h1, h2, h3, h4 {
+	font-weight:200;
+}
+
+h2 {
+  font-size: 28px;
+  padding-top: 10px;
+}
+
+h3 {
+  font-size: 23px;
+	margin-top:30px;
+	line-height:20px;
+}
+
+h2 .label,
+h3 .label {
+  top: -2px;
+  font-size: 10px;
+  padding: 2px 5px;
+  margin-left: 2px;
+  position: relative;
+  border-radius: 3px !important;
+}
+
+hr { 
+	margin-top:0;
+}
+
+pre {
+	border: none;
+}
+
+/*
+a:hover {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;  
+}
+*/
+
+/*Others*/
+.tag-cover {
+  background: #ddd;
+}
+
+.list-style li {
+  margin-bottom: 7px;
+}
+
+.block-center,
+.block-center img {
+  margin: 0 auto;
+}
+
+.margin-bottom-5  { margin-bottom:5px;}
+.margin-bottom-10 { margin-bottom:10px;} 
+.margin-bottom-15 { margin-bottom:15px;}
+.margin-bottom-20 { margin-bottom:20px;}
+.margin-bottom-25 { margin-bottom:25px;}
+.margin-bottom-30 { margin-bottom:30px;}
+.margin-bottom-35 { margin-bottom:35px;}
+.margin-bottom-40 { margin-bottom:40px;}
+.margin-bottom-45 { margin-bottom:45px;}
+.margin-bottom-50 { margin-bottom:50px;}
+.margin-bottom-55 { margin-bottom:55px;}
+.margin-bottom-60 { margin-bottom:60px;}
+
+/*Main Styles
+------------------------------------*/
+.content {
+  margin-left: 280px;
+  padding: 10px 0;
+}
+
+.container-full {
+  padding: 0 25px;
+}
+
+/*aside*/
+.page-wrap {
+  position: relative;  
+}
+
+.aside {
+  width: 270px;
+  height: 100%;
+  position: fixed;
+	padding:8px 15px 15px;
+}
+
+.aside h1 {
+	font-size: 28px;
+	line-height: 36px;
+}
+
+.aside {
+	background:#fff;
+}
+
+.aside hr {
+  margin-bottom: 10px;
+}
+
+.aside li {
+  border-top: solid 1px #eee;
+}
+
+.aside li:first-child {
+  border: none;
+}
+
+.aside li a {
+  padding: 8px 0;
+	display: block;
+	font-size: 14px;
+}
+
+.aside li a:hover {
+  color: #555;
+	text-decoration: none;
+}
+
+/*content*/
+.content {
+	background:#fff;
+}
+.content h2 {
+	position:relative;
+}
+.content h2 a {
+	right:0;
+	bottom:0;
+	font-size:18px;
+	line-height:18px;
+	position:absolute;
+}
+.content h2 a:hover {
+	text-decoration:none;
+}
+.content h2 a i.fa {
+  top: 1px;
+  color:#fff;
+  background:#bbb;
+  line-height:16px;
+  padding: 1px 3px;
+  position: relative;
+  display: inline-block;
+}
+.content h2 a:hover i.fa {
+	color: #fff;
+  background: #3498db; 
+}
+
+/*Changelog and Upgrade*/
+.changelog li,
+.upgrade li {
+	margin-bottom: 8px;
+}
+
+/*Theme*/
+.theme li {
+	margin-bottom: 5px;
+}
+
+.theme p.theme-info {
+	line-height: 25px;
+}
+
+.theme-colors {
+  padding-right: 100px;
+}
+
+.theme-colors li {
+  padding: 0; 
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.theme-colors li span {
+  display: block;
+  font-weight: 200;
+  padding: 4px 20px;
+  text-align: center;
+}
+.theme-colors li .doc-top {
+    border: 1px solid #ddd;
+    display: block;
+    font-weight: 200;
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 3px;
+    line-height: 1.5;
+}
+
+.theme-colors li span.doc-u {
+  background: #72c02c;
+  color: #fff;
+}
+.theme-colors li span.doc-u-h {
+  background: #5fb611;
+  color: #fff;
+}
+
+.theme-colors li span.doc-blue {
+  background: #3498db;
+  color: #fff;
+}
+.theme-colors li span.doc-blue-h {
+  background: #2980b9;
+  color: #fff;
+}
+
+.theme-colors li span.doc-red {
+  background: #e74c3c;
+  color: #fff;
+}
+.theme-colors li span.doc-red-h {
+  background: #c0392b;
+  color: #fff;
+}
+
+.theme-colors li span.doc-orange {
+  background: #e67e22;
+  color: #fff;
+}
+.theme-colors li span.doc-orange-h {
+  background: #d35400;
+  color: #fff;
+}
+
+.theme-colors li span.doc-purple {
+  color: #fff;
+  background: #9b6bcc;
+}
+.theme-colors li span.doc-purple-h {
+  background: #814fb5;
+  color: #fff;
+}
+
+.theme-colors li span.doc-green {
+  background: #79d5b3;
+  color: #fff;
+}
+.theme-colors li span.doc-green-h {
+  background: #59b795;
+  color: #fff;
+}
+
+.theme-colors li span.doc-aqua {
+  background: #27d7e7;
+  color: #fff;
+}
+.theme-colors li span.doc-aqua-h {
+  background: #26bac8;
+  color: #fff;
+}
+
+.theme-colors li span.doc-brown {
+  background: #9c8061;
+  color: #fff;
+}
+.theme-colors li span.doc-brown-h {
+  color: #fff;
+  background: #81674b;
+}
+
+.theme-colors li span.doc-dark-blue {
+  background: #4765a0;
+  color: #fff;
+}
+.theme-colors li span.doc-dark-blue-h {
+  color: #fff;
+  background: #324c80;
+}
+
+.theme-colors li span.doc-light {
+  background: #95a5a6;
+  color: #fff;
+}
+.theme-colors li span.doc-light-h {
+  color: #fff;
+  background: #7f8c8d;
+}
+.theme-colors li span.doc-dark-red {
+  color: #fff;
+  background: #b61332;
+}
+.theme-colors li span.doc-dark-red-h {
+  color: #fff;
+  background: #a10f2b;
+}
+.theme-colors li span.doc-teal {
+  color: #fff;
+  background: #2cd5b6; 
+}
+.theme-colors li span.doc-teal-h {
+  color: #fff;
+  background: #18ba9b;
+}
+
+/*Icons*/
+.icon-page li {
+    color: #555555;
+    font-family: Arial;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.icon-page li i {
+    font-size: 14px;
+    margin-right: 5px;
+}
+.icon-page li:hover {
+    color: #72C02C;
+}
+
+/*Glyphicons*/
+.glyphicons-demo {
+    text-align: ;
+}
+.glyphicons-demo .glyphicons {
+    color: #999999;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 48px;
+    margin-right: 20px;
+    text-align: left;
+    width: 150px;
+}
+.glyphicons-demo .glyphicons i:before {
+    color: #666666;
+    line-height: 55px !important;
+}
+
+.halfings-demo .white-content {
+    background: rgba(0, 0, 0, 0.9);
+    margin: 0 -20px;
+    padding: 20px;
+}
+.halfings-demo .white-content *, 
+.halfings-demo .white-content p, 
+.halfings-demo .white-content a {
+    color: #FFFFFF;
+}
+.halfings-demo h2 {
+    text-align: left;
+}
+.halfings-demo p, 
+.halfings-demo a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 10px;
+    text-align: left;
+    width: 175px;
+}
+.halfings-demo .halflings, 
+.halfings-demo .halflings-icon {
+    margin: 0 5px 0 0;
+}
+
+.tag-cover-color {
+	background: #d7e3dd;
+}
+
+/*Font Awesome Icon Page*/
+.fa-heading .headline {
+   margin-bottom: 20px;
+}
+.fa-heading .headline h2 {
+   font-size: 19px;
+}
+
+.fa-icons li {
+   font-size: 11px;
+   margin-bottom: 3px;
+   background: #fafafa;
+   border: solid 1px #eee;
+   font-family: "Open Sans";
+}
+
+.fa-icons li:hover { 
+   color: #72c02c;
+}
+
+.fa-icons li i { 
+   padding: 4px;
+   min-width: 30px;
+   font-size: 18px;
+   background: #eee;
+   margin-right: 5px;
+}
+.fa-icons li:hover i {
+   color: #fff;
+   background: #72c02c; 
+}
+
+/*GLYPHICONS Icons
+Special styles for displaying the icons and their classes*/
+.bs-glyphicons {
+   padding-left: 0;
+   padding-bottom: 1px;
+   margin-bottom: 20px;
+   list-style: none;
+   overflow: hidden;
+}
+.bs-glyphicons li {
+   float: left;
+   width: 25%;
+   height: 115px;
+   padding: 10px;
+   font-size: 12px;
+   line-height: 1.4;
+   text-align: center;
+   margin: 0 -1px -1px 0;
+   border: 1px solid #ddd;
+}
+.bs-glyphicons .glyphicon {
+   display: block;
+   font-size: 24px;
+   margin: 5px auto 10px;
+}
+.bs-glyphicons li:hover {
+   color: #72c02c;
+   background-color: #fafafa;
+}
+
+/* Make Font Awesome icons fixed width */
+li [class^="icon-"],
+li [class*=" icon-"] {
+  width: 1.25em;
+  text-align: center;
+  display: inline-block;
+}
+li [class^="icon-"].icon-lg,
+li [class*=" icon-"].icon-lg {
+  /* increased font size for icon-lg */
+  width: 1.5625em;
+}
+
+@media (min-width: 768px) {
+  .bs-glyphicons li {
+    width: 12.5%;
+  }
+}
+
+@media (max-width: 600px) { 
+	.table th.hidden-sm,
+	.table td.hidden-sm {
+		display: none !important;
+	}
+}
+
+/*Overview Section
+------------------------------------*/
+.overview-details span {
+  top: -1px;
+  color: #777;
+  margin: 0 5px;
+  font-size: 10px;
+  position: relative;
+}
+
+/*Back To Top
+------------------------------------*/
+#topcontrol {
+  z-index: 9;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background: #222;
+  position: relative;
+  right: 14px !important;
+  bottom: 11px !important;
+  border-radius: 3px !important;
+}
+
+#topcontrol:after {
+  top: -2px;
+  left: 8.5px;
+  content: "\f106";
+  position: absolute;
+  text-align: center;
+  font-family: FontAwesome;
+}
+
+#topcontrol:hover {
+  color: #fff;
+  background: #72c02c;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/*CSS Files
+------------------------------------*/
+.css-files {
+  padding-top: 7px;
+  border-left: 1px solid #555;
+}
+.css-files li strong {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.css-files li {
+  margin: 8px 5px 8px 5px;
+}
+
+.css-files li i {
+  color: #3498db;
+  font-size: 23px;
+  margin-left: 5px;
+}
+
+.css-files.css-v1 {
+  margin-left: 25px;
+}
+
+/*Custom Editor Plugin
+------------------------------------*/
+:not(pre) > code[class*="language-"], 
+pre[class*="language-"] {
+  background: #333 !important; 
+}
+
+/*Others
+------------------------------------*/
+.img-doc-demo {
+  width: 200px;
+  height: 200px;
+}
+
+.img-bg-doc {
+  padding: 20px 0 !important; 
+  background: #eee !important;
+}
+
+.header-img-bordered {
+  border: solid 1px #eee;
+}
+.header-img-bordered.padding-top-10 {
+  padding-top: 10px;
+}
+.header-img-bordered.padding-top-15 {
+  padding-top: 15px;
+}
+
+

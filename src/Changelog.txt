@@ -1,0 +1,496 @@
+
+--------------------------------------------------------------------------
+Version v1.7 - 8 March 2015
+--------------------------------------------------------------------------
+
+- UPGRADE: Bootstrap v3.3.2
+- UPGRADE: Countdown for jQuery v2.0.1
+- UPGRADE: jQuery v1.11.2
+- UPGRADE: Font Awesome 4.3.0
+- UPGRADE: Revolution Slider v4.6.4
+- UPGRADE: Sky Forms Pro v2.0.5
+- UPGRADE: Cube Portfolio v2.0.1
+- UPGRADE: Master Slider v2.9.3
+- NEW: Added working contact form to all contact pages
+- NEW: Sticky Footer (page_misc_sticky_footer.html)
+- NEW: Transparent Header with 9 Header Styles (header-v6)
+- NEW: Left/Right Sidebar Headers (header-v7)
+- NEW: WoW.js
+- NEW: Equal Height Columns
+- NEW: Smooth Scrolling "smoothScroll.js" (used in all pages)
+- NEW: Vertical Progress Bars
+- NEW: Animated Progress Bars on scroll
+- NEW: Light version of Parallax Quote
+- NEW: Clients v1 with Owl Carousel
+- NEW: Video iFrame (Modal) with Owl Carousel
+- NEW: Quote v1 with Parallax
+- NEW: Quote v2
+- NEW: News v2 Blocks (News/Blog Post)
+- NEW: News v3 Blocks (News/Blog Post)
+- NEW: Process v1 Section
+- NEW: Headline v2 (Title Heading)
+- NEW: Featured Blog (News Post)
+- NEW: Blog Trending (News/Blog Post)
+- NEW: Social Icons v1
+- NEW: Tags v2 (Sidebar Tags)
+- NEW: Pager v2 (Pagination)
+- NEW: Blog Photostream with Lightbox
+- NEW: Image Hover v1 Effects (Scale on Hover)
+- NEW: Image Hover v2 Effects (Black and White)
+- NEW: Call Action v2 with Parallax
+- NEW: Blog Comments with validation
+- NEW: Blog Comments
+- NEW: Dark/Light Option for default Breadcrumbs
+- NEW: Breadcrumbs v1
+- NEW: Breadcrumbs v3
+- NEW: Testimonials v4
+- NEW: Testimonials v6
+- NEW: Parallax Counter v3
+- NEW: Parallax Counter v4
+- NEW: Service Block v4
+- NEW: Service Block v5
+- NEW: Service Block v6
+- NEW: Service Block v7
+- NEW: Service Block v8
+- NEW: Team v3 Blocks
+- NEW: Team v4 Blocks
+- NEW: Team v5 Blocks
+- NEW: Team v6 Blocks
+- NEW: Team v7 Blocks
+- NEW: Home Page with Left sidebar navigation (page_home12.html)
+- NEW: Home Page with Right sidebar navigation (page_home13.html)
+- NEW: About Us v1 Page (page_about2.html)
+- NEW: About Us v2 Page (page_about3.html)
+- NEW: About Me v1 Page (page_about_me.html)
+- NEW: About Me v2 Page (page_about_me1.html)
+- NEW: About Me v3 Page (page_about_me2.html)
+- NEW: About Our Team v1 Page (page_about_our_team.html)
+- NEW: About Our Team v2 Page (page_about_our_team1.html)
+- NEW: About Our Team v3 Page (page_about_our_team2.html)
+- NEW: Services Page v1 (page_services.html)
+- NEW: Services Page v2 (page_services1.html)
+- NEW: Services Page v3 (page_services2.html)
+- NEW: Services Page v4 (page_services3.html)
+- NEW: Coming Soon Page (page_coming_soon1.html)
+- NEW: Gallery Examples Page (feature_gallery.html)
+- NEW: Animation on Scroll Page (feature_animations.html)
+- NEW: Parallax Counters Page (feature_parallax_counters.html)
+- NEW: Parallax Boxes Page (feature_parallax_blocks.html)
+- NEW: Blog Large Image Right Sidebar Page (blog_large_right_sidebar1.html)
+- NEW: Blog Large Image Left Sidebar Page (blog_large_left_sidebar1.html)
+- NEW: Blog Large Image Full Width Sidebar Page (blog_large_full_width1.html)
+- NEW: Blog Medium Image Right Sidebar Page (blog_medium_right_sidebar1.html)
+- NEW: Blog Medium Image Left Sidebar Page (blog_medium_left_sidebar1.html)
+- NEW: Blog Medium Image Full Width Sidebar Page (blog_medium_full_width1.html)
+- NEW: Blog Item Right Sidebar Page (blog_large_right_sidebar_item1.html)
+- NEW: Blog Item Left Sidebar Page (blog_large_left_sidebar_item1.html)
+- NEW: Blog Item Full Width Page (blog_large_full_width_item1.html)
+- NEW: Portfolio Hover Colors Page (portfolio_hover_colors.html)
+- NEW: Portfolio 2 Columns Full Width No Space Page (portfolio_2_columns_fullwidth_no_space.html)
+- NEW: Portfolio 2 Columns Full Width Grid Page (portfolio_2_columns_fullwidth.html)
+- NEW: Portfolio 2 Columns Full Width Grid With Text Page (portfolio_2_columns_fullwidth_text.html)
+- NEW: Portfolio 3 Columns Full Width No Space Page (portfolio_3_columns_fullwidth_no_space.html)
+- NEW: Portfolio 3 Columns Full Width Grid Page (portfolio_3_columns_fullwidth.html)
+- NEW: Portfolio 3 Columns Full Width Grid With Text Page (portfolio_3_columns_fullwidth_text.html)
+- NEW: Header v6 Transparent (feature_header_v6_transparent.html)
+- NEW: Header v6 Dark Semi Transparent (feature_header_v6_semi_dark_transparent.html)
+- NEW: Header v6 White Semi Transparent (feature_header_v6_semi_white_transparent.html)
+- NEW: Header v6 Transparent Border Bottom (feature_header_v6_border_bottom.html)
+- NEW: Header v6 Classic Dark (feature_header_v6_classic_dark.html)
+- NEW: Header v6 Classic White (feature_header_v6_classic_white.html)
+- NEW: Header v6 Dark Dropdown (feature_header_v6_dark_dropdown.html)
+- NEW: Header v6 Dark Navigation on Scroll (feature_header_v6_dark_scroll.html)
+- NEW: Header v6 Dark Search (feature_header_v6_dark_search.html)
+- NEW: Header v6 Dark Navigation in Responsive mode (feature_header_v6_dark_res_nav.html)
+- IMPROVEMENT: Background images for high resolution screens in (paralalx counters, clients block etc.)
+- IMPROVEMENT: Default Header for large logo images (most wanted feature by users request)
+- IMPROVEMENT: Header CSS code structure (added new comment structure with tabel of content)
+- IMPROVEMENT: Portfolio Pages (all portfolio pages)
+- IMPROVEMENT: Smooth Content Scroller for blocks in Shop UI (header cart) and Profile (notes, events, notification etc.) pages
+- IMPROVEMENT: File structure (all detailed information written in the documentation)
+- IMPROVEMENT: Coming Soon Page (page_coming_soon.html) - added sticky footer, updated countdown jquery plugin and enhanced some code structure.
+- IMPROVEMENT: Redesigned About Us (page_about1.html)
+- IMPROVEMENT: Search Pages
+- IMPROVEMENT: Invoice Page
+- IMPROVEMENT: Documentation (Headers, Footers and Plugin sections)
+- FIXED: Language Bar in Default Header for iOS touch devices
+- FIXED: FancyBox overlay issue
+- FIXED: Scrollspy Reference for One Page Template
+- FIXED: Theme colors of border-bottom in Default Header
+- FIXED: Some theme color issues has fixed in Shop UI
+- FIXED: Typo Errors in the Documentation
+
+
+
+--------------------------------------------------------------------------
+Version v1.6 - 5 November (29 October) 2014
+--------------------------------------------------------------------------
+
+- New: Master Slider **(value $17)**
+- New: Shop UI Home Page
+- New: Shop UI Product Page
+- New: Shop UI Filter Grid Page
+- New: Shop UI Filter List Page
+- New: Shop UI Checkout Page
+- New: Shop UI Login Page
+- New: Shop UI Registration Page
+- New: One Page (Added Dark Layout)
+- New: One Page (Added all Theme Colors)
+- New: Discover Home Page (Totally Redesigned)
+- New: Creative Home Page
+- New: Inspire Home Page
+- New: Desire Home Page
+- New: Contacts Advanced Page (with working PHP contact forms)
+- New: Contacts Option 3 Page (Classic Style)
+- New: Colourful Pricing Tables Page (Added 4 types of Pricing Tables)
+- New: Flat Pricing Tables (Added 2 types of Pricing Tables)
+- New: Icon Page (Glyphicons Pro IconsHome)
+- New: Portfolio Single Item Page
+- New: Portfolio 2 Columns (Grid)
+- New: Portfolio 2 Columns (Grid Text)
+- New: Portfolio 2 Columns (Grid No Space)
+- New: Portfolio 3 Columns (Grid)
+- New: Portfolio 3 Columns (Grid Text)
+- New: Portfolio 3 Columns (Grid No Space)
+- New: Portfolio 4 Columns (Grid)
+- New: Portfolio 4 Columns (Grid Text)
+- New: Portfolio 4 Columns (Grid No Space)
+- New: Portfolio 4 Columns (Fullwidth Grid)
+- New: Portfolio 4 Columns (Fullwidth Grid Text)
+- New: Portfolio 4 Columns (Fullwidth Grid No Space)
+- New: Portfolio 5 Columns (Grid)
+- New: Portfolio 5 Columns (Grid Text)
+- New: Portfolio 5 Columns (Grid No Space)
+- New: Portfolio 6 Columns (Grid)
+- New: Portfolio 6 Columns (Grid Text)
+- New: Portfolio 6 Columns (Grid No Space)
+- New: Footer Options (Added 3 new options. Can be found all options in feature_footers.html)
+- New: Header Options (Added 2 new header options Transparent and Shop UI. Can be found all options in feature_headers.html)
+- New: Mega Menu (Added 3 types of Mega Menu, one in default headers and 2 demos in Shop pages)
+- New: Two Theme Colors (Added dark-red and teal colors)
+- New: Misc Blank Page
+- New: Misc Boxed Fixed Menu Page
+- New: Misc Dark Page
+- New: Misc Dark Boxed Page
+- New: Misc Dark Page With Different Theme Color
+- New: PSD Files (All Shop UI pages, One Page with dark layout, all other new pages)
+- New: Owl Slider (Added diversity new options))
+- New: Revolution Slider (Added new slides and option with full screen header offset)
+- New: Content Boxes (Added variety options)
+- New: Thumbnail Blocks
+- New: Parallax Counters
+- New: Background Image Blocks/sections (with parallax effect)
+- New: Portfolio Boxes (Added different types)
+- New: Flat Background Block
+- New: Flat Testimonials
+- New: Service Block
+- UPGRADE: Bootstrap 3.2
+- UPGRADE: jQuery 1.11.1
+- UPGRADE: Glyphicons Pro v1.8.1
+- UPGRADE: Font Awesome Icons v4.2
+- UPGRADE: Revolution Slider v4.6.3
+- UPGRADE: Cube Portfolio v1.5.1
+- UPGRADE: Layer Slider v5.3
+- UPGRADE: Sky Forms v2.0.3
+- UPGRADE: Pace.js v0.5.6
+- UPGRADE: GMaps.js v0.4.15
+- IMPROVEMENT: Documentation (Major Enhancement)
+- IMPROVEMENT: All Navigations (Headers)
+- IMPROVEMENT: Main Parallax Slider
+- IMPROVEMENT: Amazing Home Page
+- IMPROVEMENT: All Footer Options
+- IMPROVEMENT: CSS code structure
+- IMPROVEMENT: JavaScript code structure
+- IMPROVEMENT: Dark Version
+- IMPROVEMENT: Google Map scrolling - added “scrollwheel: false” to page_contacts.js
+- IMPROVEMENT: Footer v1 (social icons replaced withfont-awesome icon tooltips)
+- IMPROVEMENT: Pagination page (added rounded pager examples)
+- IMPROVEMENT: custom.js (added new javascript file to write all custom js changes)
+- IMPROVEMENT: Parallax Backgrounds
+- IMPROVEMENT: "Back To Top" Button image replaced with CSS code
+- FIXED: Navigation Mobile Devices (One Page Template)
+- FIXED: Our Clients Carousel (One Page Template)
+- FIXED: Pricing Pages (Theme color issues)
+- FIXED: Fixed Navigation Colours for Tablets and others devices
+- FIXED: Ladda Buttons (Added missed file laddaButtons.js)
+- FIXED: Profile Theme Colors (added missed 9 theme color files)
+- FIXED: Padding space (Bordered Buttons)
+- FIXED: Navigation Tablet Mode Colors
+- FIXED: Fixed sky-forms datepicker responsive issue on resolution 1024x768
+- FIXED: Page Profile Settings Tab
+
+
+
+--------------------------------------------------------------------------
+Version 1.5 - 16 July (24 June) 2014
+--------------------------------------------------------------------------
+
+ - NEW: One Page Template
+ - NEW: Flat Pricing Tables
+ - NEW: 40+ PSD Pages
+ - NEW: Dark Layout Option
+ - NEW: Cube Portfolio (value $8)
+ - NEW: Blog (Grid) Masonry
+ - NEW: 3 Footer Options
+ - NEW: 3 Header Options
+ - NEW: Instagram Icon
+ - NEW: Profile Dashboard
+ - NEW: Profile Overview
+ - NEW: Profile Users
+ - NEW: Profile Projects
+ - NEW: Profile Comments
+ - NEW: Profile History
+ - NEW: Profile Settings
+ - **Profile Pages:**
+     - NEW: 4 Tab Form Sections (Edit Profile, Change Password, Payment Options and Notification Settings)
+     - NEW: 2 Social Blocks
+     - NEW: Profile Timeline Block
+     - NEW: Scrollbar
+     - NEW: Sidebar Calendar
+     - NEW: Notifications
+     - NEW: Notes Block
+     - NEW: Events Block
+     - NEW: Colorful Info Blocks (with counters)
+     - NEW: User Info Blocks
+     - NEW: Discussions Blocks
+     - NEW: Alarm Notifications
+ - **One Page Template:**
+     - NEW: Full Screen Revolution Slider
+     - NEW: AJAX Portfolio
+     - NEW: Quote Parallax Block
+     - NEW: Beautiful Team Blocks
+     - NEW: Parallax Counter
+     - NEW: Serive Blocks
+     - NEW: News Blocks
+     - NEW: Parallax Twitter Block
+     - NEW: Parallax Clients Section
+     - NEW: Testimonial Carousel
+     - NEW: Contact Forms
+ - UPGRADE: Layer Slider v5.1.0
+ - UPGRADE: Revolution Slider v4.5 SkyWood
+ - UPGRADE: Font Awesome Icons v4.1.0
+ - IMPROVEMENT: Unify Buttons
+ - IMPROVEMENT: Main Parallax Slider
+ - IMPROVEMENT: Jobs Page (Clients Logos)
+ - IMPROVEMENT: Navigation
+ - IMPROVEMENT: Blog Magazine
+ - IMPROVEMENT: Blog Large (Sidebar News)
+ - IMPROVEMENT: Font Awesome Icon Page
+ - IMPROVEMENT: Our Work Carousel with "Owl Carousel"
+ - FIXED: Navigation for Mobile and Tablet Devices
+ - FIXED: (IE8) Fixed Header Background
+ - FIXED: (IE8) Twitter Blog
+ - FIXED: (IE8) Pricing Stickers
+ - FIXED: (IE8) Easy Block Sections
+ - FIXED: (IE8) Sky Form Icons
+ - FIXED: (IE8) Carousel-v1
+ - FIXED: (IE8) Service Blocks
+ - FIXED: (IE8) Search blocks
+ - FIXED: (IE8) Parallax Team Section
+ - FIXED: (IE8) Parallax Counter
+ - FIXED: (IE8) Job Banner and Image Inputs
+
+
+
+--------------------------------------------------------------------------
+Version 1.4 - 06 April 2014
+--------------------------------------------------------------------------
+
+ - NEW: 5 Theme Color Options
+ - NEW: Discover Page
+ - NEW: Jobs Page
+ - NEW: Jobs Inner v1 Page 
+ - NEW: Jobs Inner v2 Page 
+ - NEW: Jobs Inner v3 Page 
+ - NEW: About Us Page
+ - NEW: About Me Page
+ - NEW: Responsive Corporate Email
+ - NEW: Responsive Flat Email
+ - NEW: Responsive Modern Email
+ - NEW: Pricing Tabels
+ - NEW: Light Pricing Tabels
+ - NEW: Mega Pricing Tabels
+ - NEW: Search Results Page
+ - NEW: Search Table Results Page
+ - NEW: FAQs Page
+ - NEW: 404 Error v1 Page
+ - NEW: 404 Error v2 Page
+ - NEW: Blog Timeline Page
+ - NEW: Boxed Pages
+ - NEW: Parallax Background
+ - NEW: Fixed Header
+ - NEW: Static Footer
+ - NEW: Sub Menu in Dropdown Navigation
+ - NEW: Dropcaps
+ - NEW: Bordered Texts
+ - NEW: Tooltips
+ - NEW: Color Texts
+ - NEW: Popovers
+ - NEW: Highlights
+ - NEW: Heading Options
+ - NEW: Deviders
+ - NEW: Blockquote Styles
+ - NEW: Box Shadows
+ - NEW: Testimonials Styles
+ - NEW: 7 New Button Colors
+ - NEW: Icon Button
+ - NEW: Outline Buttons
+ - NEW: Rounded Buttons
+ - NEW: Dropdown Buttons
+ - NEW: Split Dropdowns Button
+ - NEW: Collection of Brand and Social Buttons
+ - NEW: Button Loading & Hover Effects
+ - NEW: Icon Sizes
+ - NEW: 10+ Icon Color Styles
+ - NEW: Rounded Icons
+ - NEW: Circle Icons
+ - NEW: Rounded and Circle Social Icons
+ - NEW: Line Icons
+ - NEW: Unlimited Content Boxes
+ - NEW: Colored Content Boxes
+ - NEW: Tons of Labels & Badges Styles
+ - NEW: Progress Bars
+ - NEW: Image Styles
+ - NEW: Vimeo & Youtube Video Examples
+ - NEW: Soundcloud Music
+ - NEW: 5+ Panels
+ - NEW: Timeline Blog Style
+ - NEW: Timeline History Style
+ - NEW: Responsive Carousel Examples
+ - NEW: General Unify Forms
+ - NEW: Datepickers
+ - NEW: Validation Forms
+ - NEW: Masking Forms
+ - NEW: Form Layouts
+ - NEW: Checkout Form
+ - NEW: Review Form
+ - NEW: Order Form
+ - NEW: Form States
+ - NEW: Form Sliders
+ - NEW: Modals
+ - NEW: Google Maps Examples
+ - NEW: Vector Maps
+ - NEW: Animated Pie Charts
+ - NEW: Counters
+ - NEW: Smooth Page Scrolling
+ - NEW: Image Breadcrumbs
+ - NEW: Animate CSS
+ - NEW: Sub Menu on Sidebar Navigation
+ - IMPROVEMENT: Typography Page
+ - IMPROVEMENT: About Our Team
+ - IMPROVEMENT: Clients Page
+ - IMPROVEMENT: Gallery Page
+ - IMPROVEMENT: Button Sisez
+ - IMPROVEMENT: Disabled State
+ - IMPROVEMENT: Icon Styles
+ - IMPROVEMENT: Bootstrap Forms
+ - IMPROVEMENT: Navigation
+ - IMPROVEMENT: Documentation
+ - FIXED: Mobile Navigation
+ - FIXED: Searchbox for Smaller Width Browser
+ - FIXED: FancyBox
+ - FIXED: Button Sizes
+ - FIXED: Button Disable States
+ - FIXED: Boxed Layout Issue with FancyBox
+ - UPDATED: Bootstrap 3.1.1
+ - UPDATED: Awesome Icons 4.0.3
+
+
+
+--------------------------------------------------------------------------
+Version 1.3 - 19 October 2013
+--------------------------------------------------------------------------
+
+ - NEW: Layer Slider (**value $10**)
+ - NEW: Flatty Home Page
+ - NEW: Portfolio Home Page
+ - NEW: About Us Option Page
+ - NEW: Services Option Page
+ - NEW: Invoce Page
+ - NEW: Funny Boxes
+ - NEW: Meet Our Teamm Page
+ - NEW: Registration Option Page
+ - NEW: Login Option Page
+ - NEW: 3 Column Page
+ - NEW: Blog/Magazine Page
+ - NEW: Blog Medium Page
+ - NEW: Blog Full Width Page
+ - NEW: Blog Item Option
+ - NEW: Contact Option Page
+ - NEW: 404 Error Option Page
+ - NEW: Soring Plugin
+ - NEW: Tweet Blocks (Sidebar)
+ - NEW: Tab Styles
+ - NEW: Header Option
+ - NEW: Content Boxes
+ - NEW: Rounded Icon Styles
+ - NEW: Colored Social Icon
+ - NEW: 12 Different Color Panels
+ - NEW: Testimonial Blocks
+ - NEW: Boxed Layout
+ - NEW: Blog Posts (In Sidebars)
+ - NEW: Blog Quick Links (In Sidebars)
+ - NEW: Panel Tabs
+ - NEW: Panel Forms
+ - NEW: Responsive Video Class
+ - NEW: Youtube Video Example
+ - NEW: Info Blocks with Icons
+ - NEW: Sidebar Navigation
+ - NEW: Hover Dropdown Menu
+ - UPDATED: Twitter Bootstrap 3
+ - UPDATED: jQuery 1.10.2
+ - UPDATED: Revolution Slider 3.0.8
+ - UPDATED: Font Awesome Icons 2.1.1
+ - UPDATED: Glyphicons Pro Icons to Latest Version
+ - IMPROVEMENT: Redesigned All Feature Pages
+ - IMPROVEMENT: Redesigned Vertical Parallax Slider
+ - IMPROVEMENT: Redesigned Service Page
+ - IMPROVEMENT: Navigation (Menu)
+ - IMPROVEMENT: Blog Spacing
+ - IMPROVEMENT: Blog Tags
+ - IMPROVEMENT: Tabs/Accordions
+ - IMPROVEMENT: Paginations/Pagers
+ - IMPROVEMENT: Parallax Slider Arrows
+ - FIXED: Navigation for Mobile Devices
+ - FIXED: Google Map zoom in/out
+ - FIXED: Navigation Toggle Color
+ - FIXED: Pricing Tables Color
+ - FIXED: IE8 Parallax Arrows
+
+
+
+--------------------------------------------------------------------------
+Version 1.2 - 29 May 2013
+--------------------------------------------------------------------------
+
+ - NEW: Revolution Slider (**value $12**)
+ - NEW: Coming Soon Page
+ - NEW: Glyphicons Pro (**value $59**)
+ - NEW: 4 Theme Color Options
+ - NEW: Button Styles
+ - NEW: Boxed Contact Page
+ - NEW: Search Page
+ - NEW: Amazing Alternative Home Page
+ - UPGRADE: Twitter Bootstrap **v2.3.2**
+ - UPGRADE: Font Awesome **v3.1.1**
+ - IMPROVEMENT: Documentation
+ - IMPROVEMENT: Paralax Slider (High Resolution)
+ - IMPROVEMENT: HTML/CSS & JS code structures
+ - FIXED: Some minor bug fixing 
+
+
+
+--------------------------------------------------------------------------
+Version 1.1 – 24 April 2013
+--------------------------------------------------------------------------
+
+ - Upgraded to Bootstrap 2.3.1
+ - Fixed some minor bugs
+
+
+
+--------------------------------------------------------------------------
+Version 1.0 – 23 April 2013
+--------------------------------------------------------------------------
+
+ - Initial release

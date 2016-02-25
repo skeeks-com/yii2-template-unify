@@ -1,0 +1,27 @@
+{
+    "name": "skeeks/yii2-template-unify",
+    "description": "Template unify bootstrap",
+    "keywords": ["template", "yii2", "unify", "bootstrap"],
+    "homepage": "http://skeeks.com/",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "http://cms.skeeks.com",
+        "wiki": "http://git.skeeks.com/skeeks/cms/wikis/home",
+        "source": "http://git.skeeks.com/skeeks/cms"
+    },
+    "authors": [
+        {
+            "name": "Semenov Alexander",
+            "email": "semenov@skeeks.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "skeeks\\template\\unify\\": ""
+        }
+    }
+}
