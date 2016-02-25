@@ -5,7 +5,7 @@
  * @copyright 2010 SkeekS (СкикС)
  * @date 25.02.2016
  */
-namespace skeeks\template\smarty;
+namespace skeeks\template\unify;
 use yii\web\AssetBundle;
 
 class UnifyAsset extends AssetBundle
