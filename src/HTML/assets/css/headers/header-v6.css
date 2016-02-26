@@ -8,6 +8,7 @@
 4. Header - Submenu
 5. Header - Mega Menu
 6. Header - Fixed
+6.1. Header - Fixed Boxed
 7. Header - Border Bottom Style Option
 8. Header - White Transparent Background Option
 9. Header - Dark Transparent Background Option
@@ -17,7 +18,7 @@
 13. Header - Dark Responsive Navbar Option
 14. Header - Classic White Option
 15. Header - Classic Dark Option
-
+16. Header - Hamburger
 
 [--- HEADER STYLE CLASSES --]
 
@@ -180,6 +181,10 @@
 }
 
 @media (min-width: 992px) {
+	.navbar {
+		border-radius: 0;
+	}
+
 	.header-v6 .navbar-nav {
 		float: right;
 	}	
@@ -578,10 +583,7 @@
 		color: #72c02c;
 		background: inherit;
 		filter: none !important;
-		-webkit-transition: all 0.1s ease-in-out;
-		-moz-transition: all 0.1s ease-in-out;
-		-o-transition: all 0.1s ease-in-out;
-		transition: all 0.1s ease-in-out;
+		transition: all .1s ease-in-out;
 	}
 
 	.header-v6 .dropdown-menu li > a:focus {
@@ -918,7 +920,7 @@
 		left: 0;
 		width: 100%;
 		height: auto;
-		z-index: 9999;
+		z-index: 999;
 		position: fixed;
 	}
 
@@ -962,8 +964,7 @@
 	.header-fixed .header-v6.header-fixed-shrink li.menu-icons span.badge,
 	.header-fixed .header-v6.header-fixed-shrink .shopping-cart .shopping-cart-open,
 	.header-fixed .header-v6.header-fixed-shrink .search-open .form-control {
-		-webkit-transition: all 0.4s cubic-bezier(0.7, 1, 0.7, 1);
-  		transition: all 0.4s cubic-bezier(0.7, 1, 0.7, 1);
+  	transition: all 0.4s cubic-bezier(.7, 1, .7, 1);
 	}
 
 	/*Navbar Brand*/
@@ -1015,13 +1016,23 @@
 	.header-fixed .header-v6.header-fixed-shrink .header-inner-right,
 	.header-fixed .header-v6.header-fixed-shrink .menu-icons-list {
 		margin-left: 0;
-		margin-right: 20px;
+		/*margin-right: 20px;*/
 	}
 
 	/*Menu Icons*/
 	.header-v6 li.menu-icons i.menu-icons-style {
 		color: #555;
 	}
+}
+
+
+/*--------------------------------------------------
+    [6.1. Header - Fixed Boxed]
+----------------------------------------------------*/
+
+.boxed-layout.header-fixed .header-v6.header-sticky {
+	left: inherit;
+	width: inherit;
 }
 
 
@@ -1074,10 +1085,10 @@
 
 /*Navbar*/
 .header-v6.header-dark-transparent .navbar {
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,.5);
 }
 
-`/*Media Queries*/
+/*Media Queries*/
 @media (min-width: 992px) {
 	/*Header*/
 	.header-fixed .header-v6.header-dark-transparent.header-fixed-shrink {
@@ -1546,4 +1557,41 @@
 	.header-v6.header-classic-dark .mega-menu .equal-height-list li a:hover {
 		color: #72c02c;
 	}
+}
+
+/*--------------------------------------------------
+	[16. Header - Hamburger]
+----------------------------------------------------*/
+.header-v6 .sliding-panel__btn {
+	display: block;	
+}
+
+.header-v6 .sliding-panel__btn .icon-bar {
+	background: #fff;
+}
+.header-v6 .sliding-panel__btn--dark .icon-bar {
+	background: #555;
+}
+
+@media (min-width: 992px) {
+	.header-fixed .header-v6.header-fixed-shrink .sliding-panel__btn {
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+
+	.header-fixed .header-v6.header-fixed-shrink .sliding-panel__btn .icon-bar {
+		background: #555;
+	}
+
+	/*Transition*/
+	.header-fixed .header-v6.header-fixed-shrink .sliding-panel__btn,
+	.header-fixed .header-v6.header-fixed-shrink .sliding-panel__btn .icon-bar {	
+  	transition: all 0.4s cubic-bezier(.7, 1, .7, 1);
+	}
+}
+
+@media (max-width: 991px) {
+	.header-v6 .sliding-panel__btn .icon-bar {
+		background: #555;
+	}	
 }

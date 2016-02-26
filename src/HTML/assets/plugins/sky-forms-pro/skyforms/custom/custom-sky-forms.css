@@ -23,6 +23,28 @@
   box-shadow: none;
 }
 
+/*Comment Style v2*/
+.sky-form.comment-style-v2,
+.sky-form.comment-style-v2 fieldset {
+  padding: 0;
+  border: none;
+  background: inherit;
+}
+
+.sky-form.comment-style-v2 input,
+.sky-form.comment-style-v2 textarea {
+  border: none;
+}
+
+.sky-form.comment-style-v2 input:focus,
+.sky-form.comment-style-v2 textarea:focus {
+  box-shadow: none;
+}
+
+.sky-form.comment-style-v2 .form-control {
+  padding: 20px 15px;
+}
+
 /*Sky Space*/
 .sky-form .sky-space-20 {
   margin-bottom: 20px;

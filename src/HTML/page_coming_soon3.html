@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<title>Coming Soon 3 | Unify - Responsive Website Template</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Web Fonts -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,700&amp;subset=cyrillic,latin">
+
+	<!-- CSS Global Compulsory-->
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="assets/plugins/animate.css">
+	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css">
+	<link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/custom/custom-cubeportfolio.css">
+
+	<!-- CSS Page Style -->
+	<link rel="stylesheet" href="assets/css/pages/page_coming_soon_v3.css">
+</head>
+<body>
+	<!--=== Content Part ===-->
+	<div class="container-fluid">
+		<div class="container">
+			<div class="coming-soon-v3">
+				<!-- Coming Soon v3 Content -->
+				<div class="row">
+					<div class="col-md-6 coming-soon-v3-left">
+						<img class="margin-bottom-80" src="assets/img/themes/logo1-blue.png" alt="logo">
+						<h1 class="margin-bottom-40">We are Unify, the best creative <br> technology company</h1>
+
+						<!-- Coming Soon Plugn -->
+						<div class="coming-soon-plugin margin-bottom-20">
+							<div id="defaultCountdown"></div>
+						</div>
+						<!-- End Coming Soon Plugn -->
+
+						<form class="margin-bottom-60">
+							<p>Subscribe for free updates</p>
+							<div class="input-group col-md-12">
+								<input type="text" class="form-control" placeholder="Email">
+								<button class="btn-u btn-u-blue" type="button">Subscribe</button>
+							</div><!-- /input-group -->
+						</form>
+
+						<div class="footer">
+							<ul class="list-unstyled social-links">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+							<p class="copyright">2016 &copy; All Rights Reserved. Unify Template by <a href="http://htmlstream.com/" target="_blank">Htmlstream</a></p>
+						</div>
+					</div>
+
+					<div class="col-md-6 coming-soon-v3-right hidden-sm hidden-xs">
+						<div class="img">
+							<img class="img-responsive" src="assets/img/coming-soon/mac-book-pro.png" alt="laptop">
+							<a class="btn-u btn-play cbp-lightbox rounded-x"
+							data-title="Presentation" href="https://player.vimeo.com/video/58363288?&rel=0&autoplay=1" data-cbp-lightbox="presentation-video">
+							<i class="fa fa-play"></i></a>
+							<div id="cbp-lightbox" class="dp-none"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/container-->
+	</div><!--/container-fluid-->
+	<!--=== End Content Part ===-->
+
+	<!-- JS Global Compulsory -->
+	<script src="assets/plugins/jquery/jquery.min.js"></script>
+	<script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- JS Implementing Plugins -->
+	<script src="assets/plugins/back-to-top.js"></script>
+	<script src="assets/plugins/smoothScroll.js"></script>
+	<script src="assets/plugins/countdown/jquery.plugin.js"></script>
+	<script src="assets/plugins/countdown/jquery.countdown.js"></script>
+	<script src="assets/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+
+	<!-- JS Page Level -->
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/pages/page_coming_soon.js"></script>
+
+	<script>
+		jQuery(document).ready(function() {
+			App.init();
+			PageComingSoon.initPageComingSoon();
+			$('#cbp-lightbox').cubeportfolio({});
+
+			$('body').css('margin-top', Number($(document).height() - $('.coming-soon-v3').height())/2);
+			$(window).resize(function() {
+				$('body').css('margin-top', Number($(document).height() - $('.coming-soon-v3').height())/2);
+			});
+		});
+	</script>
+<!--[if lt IE 9]>
+	<script src="assets/plugins/respond.js"></script>
+	<script src="assets/plugins/html5shiv.js"></script>
+	<script src="assets/plugins/placeholder-IE-fixes.js"></script>
+	<![endif]-->
+</body>
+</html>

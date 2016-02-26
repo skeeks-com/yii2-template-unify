@@ -1,5 +1,152 @@
 
 --------------------------------------------------------------------------
+Version v1.9.1 - 07 February 2016
+--------------------------------------------------------------------------
+
+- NEW: Business Layout (One-Pages/Business/index.html)
+- NEW: Wealth Landing Page (Landing-Pages/Wealth/index.html)
+- NEW: Consulting Landing Page (One-Pages/Consulting/index.html)
+- NEW: Login and Registration Page (page_login_and_registration.html)
+- NEW: Login Page 2 (page_login2.html)
+- NEW: Registration Page 2 (page_registration2.html)
+- NEW: 404 Error Page 4 (page_404_error4.html)
+- NEW: 404 Error Page 5 (page_404_error5.html)
+- NEW: 404 Error Page 6 (page_404_error6.html)
+- NEW: Coming Soon Page v2 (page_coming_soon2.html)
+- NEW: Coming Soon Page v3 (page_coming_soon3.html)
+- NEW: Coming Soon Page v4 (page_coming_soon4.html)
+- NEW: Coming Soon Page v5 (page_coming_soon5.html)
+- NEW: Coming Soon Page v6 (page_coming_soon6.html)
+- NEW: RTL Business
+- NEW: RTL Agency
+- NEW: RTL Travel
+- NEW: RTL Lawyer
+- NEW: RTL Architecture
+- NEW: RTL Mobile App
+- NEW: RTL Spa
+- NEW: RTL Shipping
+- IMPROVEMENT: Older version of Coming Soon, 404 Error pages pages
+- IMPROVEMENT: Equal Height codes in app.js
+- UPDATED: Layer Slider v5.6.0
+- UPDATED: Cube Portfolio v3.5.1
+- FIXED: Links for Breadcrumb options (blocks.css)
+- FIXED: Multiple Progressbar issue (app.css)
+
+--------------------------------------------------------------------------
+Version v1.9 - 31 December 2015
+--------------------------------------------------------------------------
+
+Unify v1.9 includes tons of new designed blocks and they are used in all new thematic demos. All demos are completely new designed from scratch exclusively for Unify Template.
+
+- NEW: Agency Layout
+- NEW: Lawyer Layout
+- NEW: Travel Layout
+- NEW: Architecture Layout
+- NEW: Mobile App Layout
+- NEW: Spa Layout
+- NEW: Shipping Layout
+- NEW: Hero Fashion
+- NEW: Hero Gym
+- NEW: Hero Photography
+- NEW: Hero Restaurant
+- NEW: Hero Web App Dark
+- NEW: Hero Web App Light
+- NEW: Home Aspire
+- NEW: Home Allure
+- NEW: Animated Titles (demo on promo block in the page: page_home15.html)
+- NEW: CTA - Call to Actions (feature_call_to_actions.html)
+- NEW: full-height statix text image bg slider (page_home2.html)
+- NEW: full-height statix animated texts (page_home4.html)
+- NEW: full-height Youtube video background (page_home5.html)
+- NEW: on click sidebar navigation left and right (page_home17.html and page_home18.html)
+- NEW: Blog Page Layout v4
+- NEW: Modal Popups
+- NEW: 2000+ Pro Line Icons
+- UPDATE: Bootstrap v3.3.6
+- UPDATE: Animate.css - v3.5.0
+- UPDATE: WOW.js - v1.1.2
+- UPDATE: Cube Portfolio v3.4.2
+- UPDATE: Font Awesome 4.5.0
+- UPDATE: Master Slider v2.16.3
+- UPDATE/NEW: Revolution Slider v5+
+- FIXED: One Page focus issue after click and scroll
+- FIXED: Many reported minor bugs
+- IMPROVEMENT: Documentation
+- IMPROVEMENT: Shopping cart for mobile devices
+- IMPROVEMENT: Default fixed header for Safari
+- IMPROVEMENT: Default header language hover issue for iOS devices
+
+--------------------------------------------------------------------------
+Version v1.8 - 3 July 2015
+--------------------------------------------------------------------------
+
+- NEW: Blog Template
+- NEW: RTL Unify Main
+- NEW: RTL Unify Blog Template
+- NEW: RTL Unify Shop UI Template
+- NEW: RTL Unify One Page Template
+- NEW: 60+ PSD files
+- NEW: Master Slider Examples
+- NEW: Incredible Home Page (page_home16.html)
+- NEW: Feature Icon Blocks (feature_icon_blocks.html)
+- NEW: Feature Team Blocks (feature_team_blocks.html)
+- NEW: Feature Testimonials and Quotes (feature_testimonials_quotes.html)
+- NEW: Feature News Blocks (feature_news_blocks.html)
+- NEW: Centered logo - header v4 (feature_header_v4_logo_centered.html)
+- NEW: Defaul Header without Topbar (feature_header_default_no_topbar.html)
+- NEW: Defaul Centered Header (feature_header_default_centered.html)
+- NEW: Header Login/Reg Popup (feature_header_default_login_popup.html)
+- NEW: Header v8 (feature_header_v8.html)
+- NEW: Footer v8 (feature_footer_v8.html)
+- NEW: Static full-screen block in One Page (one_page_home1.html)
+- NEW: Popup login/registration for One Page (one_page_home2.html)
+- NEW: Language bar in One Page (one_page_home3.html)
+- NEW: Blog Home Page (blog/index.html)
+- NEW: Blog Page Layouts v1 (blog_page_layouts1.html)
+- NEW: Blog Page Layouts v2 (blog_page_layouts2.html)
+- NEW: Blog Page Layouts v3 (blog_page_layouts4.html)
+- NEW: Blog Post Layout v1 (blog_post_layouts1.html)
+- NEW: Blog Post Layout v2 (blog_post_layouts2.html)
+- NEW: Blog Post Layout v3 (blog_post_layouts3.html)
+- NEW: Blog Post Layout v4 (blog_post_layouts4.html)
+- NEW: Blog Post Layout v5 (blog_post_layouts5.html)
+- NEW: Blog Post Layout v6 (blog_post_layouts6.html)
+- NEW: Blog Post Layout v7 (blog_post_layouts7.html)
+- NEW: Blog Post Layout v8 (blog_post_layouts8.html)
+- NEW: Blog Post Layout v9 (blog_post_layouts9.html)
+- NEW: Blog Left Sidebar Example (blog_post_layouts_ls.html)
+- NEW: Blog Full Width Example (blog_post_layouts_fw.html)
+- NEW: Blog Grid: 1 Col (blog_grid_1.html)
+- NEW: Blog Grid: 2 Col (blog_grid_2.html)
+- NEW: Blog Grid: 3 Col (blog_grid_3.html)
+- NEW: Blog Grid: 4 Col (blog_grid_4.html)
+- NEW: Blog Grid: Full Width - 4 Col (blog_grid_4_fw.html)
+- NEW: Blog Grid: Right Sidebar - 2 Col (blog_grid_2_rs.html)
+- NEW: Blog Grid: Left Sidebar - 2 Col (blog_grid_2_ls.html)
+- NEW: Blog Single Page (blog_single.html)
+- NEW: Blog Home Boxed Page (blog_home_boxed.html)
+- NEW: Blog Home Boxed Space Page (blog_home_boxed_space.html)
+- UPGRADE: Bootstrap v3.3.5
+- UPGRADE: jQuery v1.11.3
+- UPGRADE: Master Slider v2.15.0
+- UPGRADE: Cube Portfolio v2.3.3
+- DROPPED: Glyphicons Pro (due to lincese changes)
+- FIXED: Navigation alignemtn and search box in page_home6.html page
+- FIXED: Footer logo in page_home9.html page
+- FIXED: Default header z-index issue with FancyBox
+- FIXED: Thumbnail FancyBox in the shorcodes page (Thanks to "Harald Meyer")
+- FIXED: Header v3 spacing issue on hover (Thanks to "Dario")
+- FIXED: Some design issues on dark layout styles
+- FIXED: Header v7 (sidebar header) - content onclick with ajax call issue
+- FIXED: Revolution Slider loading issue
+- IMPROVEMENT: "Timeline v2" tag <time> replaced with <div> and added equal height columns (Thanks to Stefan Kreckwitz)
+- IMPROVEMENT: Header v7 (sidebar header) - added submenu option
+- IMPROVEMENT: One Page navigation - added submenu option
+- IMPROVEMENT: One Page navigation hides on scroll in mobile/tablet devices
+
+
+
+--------------------------------------------------------------------------
 Version v1.7 - 8 March 2015
 --------------------------------------------------------------------------
 

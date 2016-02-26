@@ -1,9 +1,10 @@
-
-
 $(document).ready(function() {
 
-	// CSS transitions
-	$('body').addClass('anim');
+	// Default hash
+
+	if( !document.location.hash ){
+		document.location.hash = 'overview';
+	}
 
 	// Init syntax highlighter
 	SyntaxHighlighter.defaults['toolbar'] = false;
@@ -11,15 +12,16 @@ $(document).ready(function() {
 
 	// jump to deeplink
 	$('a[data-goto]').click(function(){
-		$('#sidebar li[data-deeplink="'+$(this).data('goto')+'"]').click();
+		$('aside li[data-deeplink="'+$(this).data('goto')+'"]').click();
 	});
 
 	// Init sidebar
 
-	$('#sidebar li').click(function(e){
+	$('aside li').click(function(e){
 
 		var subNav = '';
 		var hash = '';
+		var curHash = document.location.hash.split('#')[1];
 
 		$(this).addClass('active').siblings().removeClass('active');
 
@@ -34,23 +36,23 @@ $(document).ready(function() {
 			if( !pli.hasClass('active') ){
 
 				pli.addClass('active').siblings().removeClass('active');
-				$('#content > section').removeClass('active').eq( pli.index() ).addClass('active');
+				$('#content div > section').removeClass('active').eq( pli.index() ).addClass('active');
 			}
 
 			// submenu
 
-			$('#content > section.active > article').removeClass('active').eq( $(this).index() ).addClass('active');
+			$('#content div > section.active > article').removeClass('active').eq( $(this).index() ).addClass('active');
 
 			// setting variables
 
 			hash = $(this).data('deeplink');
-			subNav = ' / ' + $('#sidebar .active .active').text();
+			subNav = ' / ' + $('aside .active .active').text();
 
 		}else{
 
 			// main menu
 
-			$('#content > section').removeClass('active').eq( $(this).index() ).addClass('active');
+			$('#content div > section').removeClass('active').eq( $(this).index() ).addClass('active');
 
 			var dl = $(this);
 
@@ -60,11 +62,11 @@ $(document).ready(function() {
 
 				$(this).find('li').removeClass('active');
 				dl = $(this).find('li:first').addClass('active');
-				$('#content > section.active > article').removeClass('active').eq(0).addClass('active');
+				$('#content div > section.active > article').removeClass('active').eq(0).addClass('active');
 
 				// setting variable
 
-				subNav = ' / ' + $('#sidebar .active .active').text();
+				subNav = ' / ' + $('aside .active .active').text();
 			}
 
 			// setting variable
@@ -74,20 +76,36 @@ $(document).ready(function() {
 
 		// changing curnav
 
-		$('#curnav').text( $('#sidebar li.active > span').text() + subNav );
+		$('#curnav').text( $('aside li.active > span').text() + subNav );
 
-		// changing hash
+		if( hash !== curHash ){
 
-		document.location.hash = hash;
+			// changing hash
 
-		// fading in
+			document.location.hash = hash;
 
-		$('#content > section.active').css('display','none').fadeIn(200);
+			// fading in
+
+			$('#content div > section.active').css('display','none').fadeIn(200);
+
+			// scrolling to top
+
+			$('#content').scrollTop(0);
+		}
+
 	});
+
+	// on hash change
+
+	if( "onhashchange" in window ){
+		window.onhashchange = function(){
+			$('*[data-deeplink='+(document.location.hash).split('#')[1]+']').click();
+		}
+	}
 
 	if( document.location.hash ){
 
-		$('#sidebar li[data-deeplink="'+document.location.hash.split('#')[1]+'"]').click();
+		$('aside li[data-deeplink="'+document.location.hash.split('#')[1]+'"]').click();
 	}
 
 	if( typeof layerSliderTransitions !== 'undefined' ){
@@ -95,6 +113,13 @@ $(document).ready(function() {
 		// Init transition gallery
 		transitionGallery.init();
 	}
+
+	// Search
+
+// 	$('#content section article:contains("Re-ordering")').each(function(){
+// 		console.log('talalat')
+// //		alert( $(this).closest('h4').text() );
+// 	});
 });
 
 
